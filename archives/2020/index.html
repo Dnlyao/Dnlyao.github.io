@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?v=233" crossorigin>
   
-  <link rel="stylesheet" href="/Dnlyao.github.io/css/style.css?v=1607333679388">
+  <link rel="stylesheet" href="/Dnlyao.github.io/css/style.css?v=1607393953905">
 <meta name="generator" content="Hexo 5.2.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -45,8 +45,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>Articles</span>2</div>
-        <div><span>Tags</span>0</div>
+        <div><span>Articles</span>3</div>
+        <div><span>Tags</span>1</div>
         <div><span>Categories</span>0</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -99,12 +99,19 @@
 
   
   
+  <div class="nexmoe-widget-wrap">
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/Dnlyao.github.io/tags/Vue/" style="font-size: 10px;">Vue</a>
+    </div>
+    
+  </div>
+
   
   
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">Archive</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/Dnlyao.github.io/archives/2020/">2020</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/Dnlyao.github.io/archives/2020/">2020</a><span class="archive-list-count">3</span></li></ul>
     </div>
   </div>
 
@@ -150,6 +157,34 @@
         <article>
             
                 
+            
+        </article>
+    </div>
+    
+    <div class="nexmoe-post">
+        <a href="/Dnlyao.github.io/2020/12/07/Vue%E5%8A%A8%E6%80%81%E6%A0%B7%E5%BC%8F/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
+                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="Vue动态样式" class="lazyload">
+                    <h1>Vue动态样式</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2020年12月07日</a>
+            <a><i class="nexmoefont icon-areachart"></i>72 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+        </div>
+
+        <article>
+            
+                <p>NavWidth为样式绑定，动态改变width，NavWidth不需要再data里面声明。</p>
+<p>innerwidth 返回窗口的文档显示区的宽度。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div  </span><br><span class="line">class&#x3D;&quot;nav&quot;</span><br><span class="line"> :style&#x3D;&quot;&#123;width: NavWidth&#125;&quot;&gt;</span><br><span class="line">js部分</span><br><span class="line">  computed: &#123;</span><br><span class="line">    NavWidth: function () &#123;</span><br><span class="line">      let widt &#x3D; window.innerWidth - 400 + &quot;px&quot;;</span><br><span class="line">      return widt;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
+
+<hr>
+
             
         </article>
     </div>
@@ -204,7 +239,7 @@
 
 
 <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
- <script src="/Dnlyao.github.io/js/app.js?v=1607333679388"></script>
+ <script src="/Dnlyao.github.io/js/app.js?v=1607393953905"></script>
 
   
 
